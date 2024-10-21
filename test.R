@@ -90,3 +90,5 @@ sapply(df[,-ncol(df)],gini)
 
 
 #2024年10月21日，学习记录
+install.packages("usethis")
+library(usethis)
