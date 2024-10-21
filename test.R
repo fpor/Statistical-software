@@ -90,5 +90,13 @@ sapply(df[,-ncol(df)],gini)
 
 
 #2024年10月21日，学习记录
+#生成token的简单方法
 install.packages("usethis")
 library(usethis)
+get_sitrep()
+
+#跳转到github生成token
+usethis::create_github_token()
+
+#接下来将上一步生成的token,传给RStudio
+gitcreds::gitcreds_set()
