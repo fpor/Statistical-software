@@ -97,6 +97,6 @@ get_sitrep()
 
 #跳转到github生成token
 usethis::create_github_token()
-
 #接下来将上一步生成的token,传给RStudio
 gitcreds::gitcreds_set()
+
